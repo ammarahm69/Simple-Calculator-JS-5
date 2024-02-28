@@ -1,0 +1,47 @@
+body{background-color: #1c1a27;}
+@font-face {
+    font-family: 'noto';
+    src: url(../Noto_Serif/NotoSerif-VariableFont_wdth\,wght.ttf);
+}
+.mains{
+    position: relative;
+    /* border: 2px solid wheat; */
+    height: 450px;
+    width: 100%;
+}
+.operation{
+   
+   margin-left: 16rem;
+    position: absolute;
+   top: 20rem;
+  
+}
+
+.operation a {
+    padding-left: 3rem;
+}
+.calculator-heading {
+    font-weight: 500;
+color: #1f9ce4 !important;
+font-size: 36px; /* Increased font size */
+text-align: center;
+font-family: Arial;
+text-shadow: 2px 2px 4px rgb(27, 98, 231); /* Text shadow */
+}
+.welcome {
+    color: #fff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    position: relative;
+    bottom: 20rem;
+}
+.method{
+color: #fff;
+font-size: 24px;
+}
+.wid {
+    color: #fff;
+    position: absolute;
+    top: 6rem;
+    left: 25rem;
+}
